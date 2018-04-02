@@ -7,6 +7,10 @@ class Backer
     @name = name
   end
 
+  def name
+    @name
+  end
+
   def back_project
     @backed_projects << Project.self
 end
