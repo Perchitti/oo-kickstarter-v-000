@@ -1,9 +1,9 @@
 class Project
 
-  attr_accessor :name
+  attr_accessor :title
 
   def initialize(name)
     @backers = []
-    @name = name
+    @title = title
   end
 end
